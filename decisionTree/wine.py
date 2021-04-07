@@ -13,4 +13,3 @@ filePathClean = '.\decisionTree\winequality-white-clean.csv'
 if not os.path.exists(filePathClean): 
     df.to_csv(filePathClean)
 
-
